@@ -1,0 +1,54 @@
+.h1{
+    background: linear-gradient(90deg, #0156B9 14.91%, #028AFB 96.39%);
+    background-clip: text;
+}
+
+.singup{
+    background: linear-gradient(90deg, #0156B9 14.91%, #028AFB 96.39%);
+    background-clip: text;
+}
+
+.images1{
+    animation-name: images1;
+    transform: translateY(-130px);
+    animation-duration: 6s;
+    animation-iteration-count: infinite
+
+
+} 
+.images2{
+    animation-name: images2;
+    transform: translateY(-620px);
+    animation-duration: 6s;
+    animation-iteration-count: infinite
+    
+
+
+}   
+
+@keyframes images1{
+    0%{
+        transform: translateY(-130px);
+    }
+    33.33%{
+        transform: translateY(-380px);
+    }
+
+    66.66%{
+        transform: translateY(-620px);
+    }
+}
+
+@keyframes images2{
+    0%{
+        transform: translateY(-620px);
+    }
+    33.33%{
+        transform: translateY(-380px);
+    }
+
+    66.66%{
+        transform: translateY(-130px);
+    }
+}
+

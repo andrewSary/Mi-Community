@@ -1,0 +1,9 @@
+.start {
+    background: linear-gradient(90deg, #0156B9 14.91%, #028AFB 96.39%);
+    background-clip: text;
+    border-image: linear-gradient(90deg, #0053B5 15.9%, #038BFC 100%);
+    border-bottom: 4px solid transparent;
+    border-image-slice: 1;
+    width: 100%;
+    
+}

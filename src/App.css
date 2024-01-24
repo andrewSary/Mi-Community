@@ -1,0 +1,4 @@
+h1,h2,h3,h4,h5,h6{
+  background: linear-gradient(90deg, #0156B9 14.91%, #028AFB 96.39%);
+    background-clip: text;
+}
